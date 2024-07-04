@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: gray;
+            font-family: "Baloo 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        .card {
+            background-color: white;
+            width: 394px;
+            height: 544px;
+            border-radius: 7px;
+            margin: auto;
+        }
+
+        .image {
+            padding: 7px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .capsule {
+            margin: 5px;
+        }
+
+        .capsule span {
+            border: 1.5px solid gray;
+            margin: 3px 3px 3px 5px;
+            color: gray;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .capsule span:hover {
+            color: black;
+            cursor: pointer;
+        }
+
+        .content {
+            margin: 10px;
+        }
+
+        .content h1 {
+            font-size: 30px;
+
+        }
+
+        .content p {
+            font-size: 15px;
+            font-weight: bolder;
+            color: gray;
+            margin-top: -15px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .button button {
+            font-family: "Baloo 2", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-weight: bolder;
+            outline: none;
+            padding: 5px 20px;
+            border-radius: 15px;
+            border: none;
+            color: #3e72ae;
+            background-color: #b3becc;
+        }
+
+        .button button:hover {
+            cursor: pointer;
+            color: #026eeb;
+            background-color: yellowgreen;
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="380px"
+                src="https://media.istockphoto.com/id/1208877516/photo/old-man-and-the-sea.jpg?s=2048x2048&w=is&k=20&c=64fBu28HTuobUpwmF-hmRjER76upfOYVG7PkLu5S8Vo="
+                alt="loading...">
+        </div>
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h1>Watching Blue</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident ex natus voluptas quo iusto
+                quia officia, maxime consequuntur non quaerat libero perspiciatis magnam eaque ad vitae culpa mollitia
+                maiores.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
